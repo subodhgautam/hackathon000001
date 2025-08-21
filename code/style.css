@@ -71,7 +71,9 @@ p {
     margin-bottom: 30px;
     line-height: 1.5;
 }
-
+/* .btn a {
+    text-decoration: none;
+} */
 .btn {
     background: #333;
     color: white;
@@ -81,6 +83,7 @@ p {
     cursor: pointer;
     font-size: 1rem;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -111,4 +114,10 @@ p {
     .grid {
         grid-template-columns: 1fr;
     }
+}
+
+.recents h2 {
+padding: 40px 0px 0px 0px;
+ font-size: 1.5rem;
+    font-weight: 600;
 }
